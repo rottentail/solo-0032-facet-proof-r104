@@ -1,0 +1,57 @@
+{
+  "request": {
+    "width": 512,
+    "height": 512,
+    "samples": 1,
+    "source_faces": 40000,
+    "geometry": "80 wide fans, dense centres in tile ordinal 0"
+  },
+  "attempts": [
+    {
+      "attempt": 1,
+      "state": "failed",
+      "error": "render_timeout",
+      "wall_s": 45.02,
+      "committed_tiles": 0,
+      "total_tiles": 64
+    },
+    {
+      "attempt": 2,
+      "state": "failed",
+      "error": "render_timeout",
+      "wall_s": 45.02,
+      "committed_tiles": 0,
+      "total_tiles": 64
+    },
+    {
+      "attempt": 3,
+      "state": "failed",
+      "error": "render_timeout",
+      "wall_s": 45.02,
+      "committed_tiles": 0,
+      "total_tiles": 64
+    },
+    {
+      "attempt": 4,
+      "state": "failed",
+      "error": "render_timeout",
+      "wall_s": 45.02,
+      "committed_tiles": 0,
+      "total_tiles": 64
+    },
+    {
+      "attempt": 5,
+      "state": "failed",
+      "error": "render_timeout",
+      "wall_s": 45.02,
+      "committed_tiles": 0,
+      "total_tiles": 64
+    }
+  ],
+  "attempts_run": 5,
+  "final_state": "queued",
+  "final_error": null,
+  "plate_id": null,
+  "capacity_still_reserved": 262144,
+  "meaning": "No attempt can commit even the first tile; retrying cannot move this exposure toward success. Capacity stays reserved while it is queued."
+}

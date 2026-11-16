@@ -1,0 +1,1 @@
+{"baseline_rss_mb": 40.1, "peak_rss_mb": 159.7, "delta_rss_mb": 119.6, "worker_results": {"1": {"state": "succeeded", "wall_s": 22.92}, "0": {"state": "succeeded", "wall_s": 22.98}}, "exposure_states": ["succeeded", "succeeded"], "capacity_after": 0}

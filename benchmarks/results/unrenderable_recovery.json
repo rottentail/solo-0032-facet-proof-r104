@@ -1,0 +1,42 @@
+{
+  "request": {
+    "width": 512,
+    "height": 512,
+    "samples": 2,
+    "source_faces": 40000
+  },
+  "attempts": [
+    {
+      "state": "failed",
+      "error": "render_timeout"
+    },
+    {
+      "state": "failed",
+      "error": "render_timeout"
+    },
+    {
+      "state": "failed",
+      "error": "render_timeout"
+    }
+  ],
+  "progress_after_attempts": {
+    "committed_tiles": 18,
+    "total_tiles": 256,
+    "complete": false
+  },
+  "reservation_before": 1048576,
+  "cancel_status": 200,
+  "cancel_state": "cancelled",
+  "exposure_state_after_cancel": "cancelled",
+  "capacity_reserved_after_cancel": 0,
+  "retry_http_status": 409,
+  "retry_error": "state",
+  "small_request": {
+    "width": 256,
+    "height": 256,
+    "samples": 1
+  },
+  "small_worker_state": "succeeded",
+  "small_exposure_state": "succeeded",
+  "small_bundle_bytes": 23248
+}

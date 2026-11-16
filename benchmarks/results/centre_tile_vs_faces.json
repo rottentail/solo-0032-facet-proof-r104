@@ -1,0 +1,15 @@
+{
+  "request": {
+    "width": 512,
+    "height": 512,
+    "samples": 2,
+    "geometry": "wide fan triangles, centre 64x64 tile, no checkpoints"
+  },
+  "triangles_to_seconds": {
+    "16000": 17.85,
+    "24000": 27.24,
+    "32000": 36.13,
+    "36000": 40.48,
+    "40000": 45.44
+  }
+}

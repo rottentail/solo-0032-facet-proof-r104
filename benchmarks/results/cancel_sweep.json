@@ -1,0 +1,326 @@
+[
+  {
+    "delay_s": 0.0,
+    "state_before_cancel": "running",
+    "cancel_requested_before": 0,
+    "progress_before": {
+      "committed_tiles": 0,
+      "total_tiles": 0,
+      "complete": false
+    },
+    "cancel_http_state": "running",
+    "cancel_error": null,
+    "cancel_accept_latency_s": 0.014,
+    "terminal_after_cancel_s": 0.025,
+    "worker_total_s": 0.03,
+    "worker_result": "cancelled",
+    "final_state": "cancelled",
+    "final_error": "cancelled",
+    "progress_after": {
+      "committed_tiles": 0,
+      "total_tiles": 1,
+      "complete": false
+    },
+    "plate_id": null,
+    "export": null,
+    "capacity_after": 0
+  },
+  {
+    "delay_s": 0.2,
+    "state_before_cancel": "succeeded",
+    "cancel_requested_before": 0,
+    "progress_before": {
+      "committed_tiles": 1,
+      "total_tiles": 1,
+      "complete": true
+    },
+    "cancel_http_state": null,
+    "cancel_error": "state",
+    "cancel_accept_latency_s": 0.0,
+    "terminal_after_cancel_s": -0.136,
+    "worker_total_s": 0.068,
+    "worker_result": "succeeded",
+    "final_state": "succeeded",
+    "final_error": null,
+    "progress_after": {
+      "committed_tiles": 1,
+      "total_tiles": 1,
+      "complete": true
+    },
+    "plate_id": "plate_52ae4f97296541de9138496496219bc9",
+    "export": {
+      "verify": true,
+      "bundle_bytes": 2
+    },
+    "capacity_after": 0
+  },
+  {
+    "delay_s": 0.5,
+    "state_before_cancel": "succeeded",
+    "cancel_requested_before": 0,
+    "progress_before": {
+      "committed_tiles": 1,
+      "total_tiles": 1,
+      "complete": true
+    },
+    "cancel_http_state": null,
+    "cancel_error": "state",
+    "cancel_accept_latency_s": 0.001,
+    "terminal_after_cancel_s": -0.446,
+    "worker_total_s": 0.065,
+    "worker_result": "succeeded",
+    "final_state": "succeeded",
+    "final_error": null,
+    "progress_after": {
+      "committed_tiles": 1,
+      "total_tiles": 1,
+      "complete": true
+    },
+    "plate_id": "plate_55a332f9f5834af099575e34512b4c05",
+    "export": {
+      "verify": true,
+      "bundle_bytes": 2
+    },
+    "capacity_after": 0
+  },
+  {
+    "delay_s": 0.8,
+    "state_before_cancel": "succeeded",
+    "cancel_requested_before": 0,
+    "progress_before": {
+      "committed_tiles": 1,
+      "total_tiles": 1,
+      "complete": true
+    },
+    "cancel_http_state": null,
+    "cancel_error": "state",
+    "cancel_accept_latency_s": 0.0,
+    "terminal_after_cancel_s": -0.742,
+    "worker_total_s": 0.062,
+    "worker_result": "succeeded",
+    "final_state": "succeeded",
+    "final_error": null,
+    "progress_after": {
+      "committed_tiles": 1,
+      "total_tiles": 1,
+      "complete": true
+    },
+    "plate_id": "plate_a0c6350bc4884dd7bc2c59076cb046fc",
+    "export": {
+      "verify": true,
+      "bundle_bytes": 2
+    },
+    "capacity_after": 0
+  },
+  {
+    "delay_s": 1.2,
+    "state_before_cancel": "succeeded",
+    "cancel_requested_before": 0,
+    "progress_before": {
+      "committed_tiles": 1,
+      "total_tiles": 1,
+      "complete": true
+    },
+    "cancel_http_state": null,
+    "cancel_error": "state",
+    "cancel_accept_latency_s": 0.0,
+    "terminal_after_cancel_s": -1.136,
+    "worker_total_s": 0.068,
+    "worker_result": "succeeded",
+    "final_state": "succeeded",
+    "final_error": null,
+    "progress_after": {
+      "committed_tiles": 1,
+      "total_tiles": 1,
+      "complete": true
+    },
+    "plate_id": "plate_9796e102f002411c9d8a55a72d22d011",
+    "export": {
+      "verify": true,
+      "bundle_bytes": 2
+    },
+    "capacity_after": 0
+  },
+  {
+    "delay_s": 0.5,
+    "state_before_cancel": "running",
+    "cancel_requested_before": 0,
+    "progress_before": {
+      "committed_tiles": 0,
+      "total_tiles": 16,
+      "complete": false
+    },
+    "cancel_http_state": "running",
+    "cancel_error": null,
+    "cancel_accept_latency_s": 0.007,
+    "terminal_after_cancel_s": 0.025,
+    "worker_total_s": 0.584,
+    "worker_result": "cancelled",
+    "final_state": "cancelled",
+    "final_error": "cancelled",
+    "progress_after": {
+      "committed_tiles": 0,
+      "total_tiles": 16,
+      "complete": false
+    },
+    "plate_id": null,
+    "export": null,
+    "capacity_after": 0
+  },
+  {
+    "delay_s": 1.5,
+    "state_before_cancel": "running",
+    "cancel_requested_before": 0,
+    "progress_before": {
+      "committed_tiles": 1,
+      "total_tiles": 16,
+      "complete": false
+    },
+    "cancel_http_state": "running",
+    "cancel_error": null,
+    "cancel_accept_latency_s": 0.063,
+    "terminal_after_cancel_s": 0.164,
+    "worker_total_s": 1.775,
+    "worker_result": "cancelled",
+    "final_state": "cancelled",
+    "final_error": "cancelled",
+    "progress_after": {
+      "committed_tiles": 1,
+      "total_tiles": 16,
+      "complete": false
+    },
+    "plate_id": null,
+    "export": null,
+    "capacity_after": 0
+  },
+  {
+    "delay_s": 3.0,
+    "state_before_cancel": "running",
+    "cancel_requested_before": 0,
+    "progress_before": {
+      "committed_tiles": 1,
+      "total_tiles": 16,
+      "complete": false
+    },
+    "cancel_http_state": "running",
+    "cancel_error": null,
+    "cancel_accept_latency_s": 0.052,
+    "terminal_after_cancel_s": 0.122,
+    "worker_total_s": 3.144,
+    "worker_result": "cancelled",
+    "final_state": "cancelled",
+    "final_error": "cancelled",
+    "progress_after": {
+      "committed_tiles": 1,
+      "total_tiles": 16,
+      "complete": false
+    },
+    "plate_id": null,
+    "export": null,
+    "capacity_after": 0
+  },
+  {
+    "delay_s": 5.0,
+    "state_before_cancel": "running",
+    "cancel_requested_before": 0,
+    "progress_before": {
+      "committed_tiles": 2,
+      "total_tiles": 16,
+      "complete": false
+    },
+    "cancel_http_state": "running",
+    "cancel_error": null,
+    "cancel_accept_latency_s": 0.006,
+    "terminal_after_cancel_s": 0.025,
+    "worker_total_s": 5.06,
+    "worker_result": "cancelled",
+    "final_state": "cancelled",
+    "final_error": "cancelled",
+    "progress_after": {
+      "committed_tiles": 2,
+      "total_tiles": 16,
+      "complete": false
+    },
+    "plate_id": null,
+    "export": null,
+    "capacity_after": 0
+  },
+  {
+    "delay_s": 10.0,
+    "state_before_cancel": "running",
+    "cancel_requested_before": 0,
+    "progress_before": {
+      "committed_tiles": 238,
+      "total_tiles": 256,
+      "complete": false
+    },
+    "cancel_http_state": "running",
+    "cancel_error": null,
+    "cancel_accept_latency_s": 0.048,
+    "terminal_after_cancel_s": 0.113,
+    "worker_total_s": 10.153,
+    "worker_result": "cancelled",
+    "final_state": "cancelled",
+    "final_error": "cancelled",
+    "progress_after": {
+      "committed_tiles": 238,
+      "total_tiles": 256,
+      "complete": false
+    },
+    "plate_id": null,
+    "export": null,
+    "capacity_after": 0
+  },
+  {
+    "delay_s": 11.5,
+    "state_before_cancel": "running",
+    "cancel_requested_before": 0,
+    "progress_before": {
+      "committed_tiles": 254,
+      "total_tiles": 256,
+      "complete": false
+    },
+    "cancel_http_state": "running",
+    "cancel_error": null,
+    "cancel_accept_latency_s": 0.003,
+    "terminal_after_cancel_s": 0.016,
+    "worker_total_s": 11.544,
+    "worker_result": "cancelled",
+    "final_state": "cancelled",
+    "final_error": "cancelled",
+    "progress_after": {
+      "committed_tiles": 254,
+      "total_tiles": 256,
+      "complete": false
+    },
+    "plate_id": null,
+    "export": null,
+    "capacity_after": 0
+  },
+  {
+    "delay_s": 12.5,
+    "state_before_cancel": "running",
+    "cancel_requested_before": 0,
+    "progress_before": {
+      "committed_tiles": 256,
+      "total_tiles": 256,
+      "complete": true
+    },
+    "cancel_http_state": "running",
+    "cancel_error": null,
+    "cancel_accept_latency_s": 0.104,
+    "terminal_after_cancel_s": 0.621,
+    "worker_total_s": 13.183,
+    "worker_result": "cancelled",
+    "final_state": "cancelled",
+    "final_error": "cancelled",
+    "progress_after": {
+      "committed_tiles": 256,
+      "total_tiles": 256,
+      "complete": true
+    },
+    "plate_id": null,
+    "export": null,
+    "capacity_after": 0
+  }
+]

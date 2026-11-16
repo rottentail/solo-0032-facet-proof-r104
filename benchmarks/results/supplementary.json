@@ -1,0 +1,47 @@
+{
+  "span": [
+    {
+      "span": 2.0,
+      "covered_pixels": 262144,
+      "coverage_ratio": 1.0,
+      "wall_s": 1.92,
+      "peak_rss_mb": 45.0
+    },
+    {
+      "span": 6.0,
+      "covered_pixels": 28900,
+      "coverage_ratio": 0.1102,
+      "wall_s": 1.5,
+      "peak_rss_mb": 40.7
+    },
+    {
+      "span": 20.0,
+      "covered_pixels": 2704,
+      "coverage_ratio": 0.0103,
+      "wall_s": 1.42,
+      "peak_rss_mb": 45.2
+    },
+    {
+      "span": 60.0,
+      "covered_pixels": 324,
+      "coverage_ratio": 0.0012,
+      "wall_s": 1.38,
+      "peak_rss_mb": 45.2
+    }
+  ],
+  "face_cap_small_bbox": {
+    "source_faces": 40000,
+    "request": "256x256 s1",
+    "state": "succeeded",
+    "wall_s": 7.56,
+    "peak_rss_mb": 95.9,
+    "triangles": 40000
+  },
+  "planner_memory": {
+    "triangles": 40000,
+    "rss_before_mb": 55.2,
+    "rss_after_mb": 96.2,
+    "delta_mb": 41.0,
+    "note": "RSS, not peak; planner allocations persist in the local 'plan'"
+  }
+}

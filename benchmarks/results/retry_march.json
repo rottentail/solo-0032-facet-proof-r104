@@ -1,0 +1,124 @@
+{
+  "scenario": "retry_march",
+  "source_faces": 36000,
+  "request": {
+    "width": 256,
+    "height": 256,
+    "samples": 1
+  },
+  "attempts": [
+    {
+      "attempt": 1,
+      "state": "failed",
+      "error": "render_timeout",
+      "wall_s": 45.064,
+      "committed_tiles": 2,
+      "total_tiles": 16
+    },
+    {
+      "attempt": 2,
+      "state": "failed",
+      "error": "render_timeout",
+      "wall_s": 45.034,
+      "committed_tiles": 4,
+      "total_tiles": 16
+    },
+    {
+      "attempt": 3,
+      "state": "failed",
+      "error": "render_timeout",
+      "wall_s": 45.039,
+      "committed_tiles": 5,
+      "total_tiles": 16
+    },
+    {
+      "attempt": 4,
+      "state": "failed",
+      "error": "render_timeout",
+      "wall_s": 46.02,
+      "committed_tiles": 6,
+      "total_tiles": 16
+    },
+    {
+      "attempt": 5,
+      "state": "failed",
+      "error": "render_timeout",
+      "wall_s": 45.292,
+      "committed_tiles": 7,
+      "total_tiles": 16
+    },
+    {
+      "attempt": 6,
+      "state": "failed",
+      "error": "render_timeout",
+      "wall_s": 45.04,
+      "committed_tiles": 9,
+      "total_tiles": 16
+    },
+    {
+      "attempt": 7,
+      "state": "failed",
+      "error": "render_timeout",
+      "wall_s": 45.054,
+      "committed_tiles": 10,
+      "total_tiles": 16
+    },
+    {
+      "attempt": 8,
+      "state": "failed",
+      "error": "render_timeout",
+      "wall_s": 45.021,
+      "committed_tiles": 11,
+      "total_tiles": 16
+    },
+    {
+      "attempt": 9,
+      "state": "failed",
+      "error": "render_timeout",
+      "wall_s": 45.025,
+      "committed_tiles": 13,
+      "total_tiles": 16
+    },
+    {
+      "attempt": 10,
+      "state": "failed",
+      "error": "render_timeout",
+      "wall_s": 45.033,
+      "committed_tiles": 15,
+      "total_tiles": 16
+    },
+    {
+      "attempt": 11,
+      "state": "succeeded",
+      "error": null,
+      "wall_s": 11.133,
+      "committed_tiles": 16,
+      "total_tiles": 16,
+      "plate_id": "plate_896b7c461a8348f9980e1ce46859ee48",
+      "statistics": {
+        "background_depth": "positive_infinity",
+        "byte_order": "little",
+        "covered_pixels": 51436,
+        "depth_units": "camera_forward_distance",
+        "fragments": 51436,
+        "triangles": 36000
+      }
+    }
+  ],
+  "total_wall_s": 462.754,
+  "final_state": "succeeded",
+  "final_error": null,
+  "capacity_after": 0,
+  "plate_verify": {
+    "valid": true,
+    "passes": {
+      "color.png": "681459be60e08524bead71af5ecef73179b8ca2c4c8b42f92cf3539c39228d7a",
+      "color.rgb": "1702fcf0b04d3c451355a3bcd73898bb213e465eb2c6b80032d573db7812ba90",
+      "depth.f32": "caef92721b4e882aa7c560454962086676121a21378cfb32b09254c321f293c1",
+      "depth.png": "15f444321a9dc736d0f602126c5a38bc09234fcbc6f0cbb98bd317b21d1b38ca",
+      "object.png": "5d9de0483b92a6ec28f511090b1466fbcdf342716aa08aa7cf1e63e9031cd21b",
+      "object.u32": "1a909e19b44a2890e135ca4bd90c64971bc208880b06e8b2cb5c48ccbc14eab3"
+    }
+  },
+  "bundle_bytes": 2
+}

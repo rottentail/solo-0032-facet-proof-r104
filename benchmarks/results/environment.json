@@ -1,0 +1,11 @@
+{
+  "uname": "Linux 7.2.12-orbstack-00394-gbecdd6130068 aarch64",
+  "python": "Python 3.11.2",
+  "cpu_count": 10,
+  "loadavg_at_report": "3.91 3.54 2.67 3/2347 11996",
+  "mem_total_kb": "16424796",
+  "cgroup_mem_max": "max",
+  "cgroup_cpu_max": "max 100000",
+  "cpu_model": "0x000",
+  "page_size": 4096
+}

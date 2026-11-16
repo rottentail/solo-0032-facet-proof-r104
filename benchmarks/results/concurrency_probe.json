@@ -1,0 +1,49 @@
+[
+  {
+    "scenario": "three_workers_two_jobs",
+    "worker_outputs": [
+      {
+        "state": "succeeded",
+        "ms": 425.7,
+        "exposure_id": "exposure_552bd33251ef4e34988b6e23f941dcc0",
+        "error": null
+      },
+      {
+        "state": "succeeded",
+        "ms": 981.0,
+        "exposure_id": "exposure_1eacb620ce6c4f538ca48c7a97a10c24",
+        "error": null
+      },
+      {
+        "state": "idle",
+        "ms": 0.2,
+        "exposure_id": null,
+        "error": null
+      }
+    ],
+    "exposure_states": [
+      "succeeded",
+      "succeeded"
+    ],
+    "plate_rows": 2,
+    "capacity": 0
+  },
+  {
+    "scenario": "storage_growth",
+    "measurements": [
+      {
+        "attempt": 1,
+        "state": "succeeded",
+        "committed_tiles": 16,
+        "plate_dir_bytes": 2105378,
+        "db_bytes": 364544,
+        "wall_s": 18.81
+      },
+      {
+        "attempt": "duplicate_success",
+        "plate_dir_bytes": 2105378,
+        "db_bytes": 380928
+      }
+    ]
+  }
+]

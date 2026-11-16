@@ -1,0 +1,53 @@
+[
+  {
+    "scenario": "kill_recover",
+    "partial_progress": {
+      "committed_tiles": 4,
+      "total_tiles": 256
+    },
+    "state_before_lease_expiry": "running",
+    "recovered": [
+      "exposure_c5e84493363e44fcb9403c10fd136d6e"
+    ],
+    "state_after_recover": "queued",
+    "capacity_after_recover": 1048576,
+    "worker_result": "failed",
+    "final_state": "failed",
+    "final_error": "render_timeout",
+    "final_progress": {
+      "committed_tiles": 40,
+      "total_tiles": 256,
+      "complete": false
+    },
+    "review": null,
+    "recover_wall_s": 46.9
+  },
+  {
+    "scenario": "kill_mid_tile",
+    "state_at_kill": "running",
+    "tiles_at_kill": {
+      "committed": 21,
+      "total": 256,
+      "complete": false
+    },
+    "recovered": [
+      "exposure_2b6e9c6afdb547debb5c32d2f3783366"
+    ],
+    "state_after_recover": "queued",
+    "capacity_after_recover": 1048576,
+    "worker_result": "succeeded",
+    "final_state": "succeeded",
+    "tiles_after": {
+      "committed": 256,
+      "total": 256
+    },
+    "plate_verify": true
+  },
+  {
+    "scenario": "cancel_after_terminal_restart",
+    "cancel_status_state": null,
+    "final_state": "succeeded",
+    "plate_after_restart": "plate_3a0b069396ba4c59b83be942826bdae6",
+    "bundle_bytes": 4212
+  }
+]

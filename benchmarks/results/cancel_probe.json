@@ -1,0 +1,114 @@
+[
+  {
+    "phase": "queued",
+    "request": {
+      "width": 64,
+      "height": 64,
+      "samples": 1
+    },
+    "faces": 8,
+    "cancel_latency_s": 0.0037,
+    "state_after_cancel": "cancelled",
+    "capacity_after_cancel": 0,
+    "worker_result": "idle",
+    "worker_elapsed_s": 0.001,
+    "capacity_after_worker": 0,
+    "plate": false,
+    "progress": {
+      "exposure_id": "exposure_f4de13c853094135998c74a69a5fb973",
+      "state": "cancelled",
+      "planned": false,
+      "committed_tiles": 0,
+      "total_tiles": 0,
+      "committed_pixels": 0,
+      "total_pixels": 0,
+      "complete": false,
+      "fingerprint": null
+    },
+    "step_claimed": false
+  },
+  {
+    "phase": "tiles",
+    "request": {
+      "width": 256,
+      "height": 256,
+      "samples": 1
+    },
+    "faces": 2000,
+    "cancel_state_before": "running",
+    "cancel_progress_before": {
+      "committed_tiles": 4,
+      "total_tiles": 16,
+      "complete": false
+    },
+    "cancel_http_state": "running",
+    "cancel_request_latency_s": 0.142,
+    "capacity_while_running": 65536,
+    "worker_terminal_latency_s": 0.163,
+    "worker_wall_s": 3.684,
+    "worker_result": "cancelled",
+    "plate": false,
+    "exposure": {
+      "state": "cancelled",
+      "error": "cancelled"
+    },
+    "progress": {
+      "exposure_id": "exposure_4b77f8088e3342e18c984fe65bc5d006",
+      "state": "cancelled",
+      "planned": true,
+      "committed_tiles": 4,
+      "total_tiles": 16,
+      "committed_pixels": 16384,
+      "total_pixels": 65536,
+      "complete": false,
+      "fingerprint": "311466dc687ef93ac908cb7e1409acb3e7f3b1051cf2b504c48fba671b12cbbe"
+    },
+    "capacity_after": 0,
+    "export_attempt": {
+      "plate_id": null,
+      "bundle": "no plate row"
+    }
+  },
+  {
+    "phase": "finalize",
+    "request": {
+      "width": 512,
+      "height": 512,
+      "samples": 2
+    },
+    "faces": 19602,
+    "cancel_state_before": "running",
+    "cancel_progress_before": {
+      "committed_tiles": 256,
+      "total_tiles": 256,
+      "complete": true
+    },
+    "cancel_http_state": "running",
+    "cancel_request_latency_s": 0.014,
+    "capacity_while_running": 1048576,
+    "worker_terminal_latency_s": 0.068,
+    "worker_wall_s": 13.132,
+    "worker_result": "cancelled",
+    "plate": false,
+    "exposure": {
+      "state": "cancelled",
+      "error": "cancelled"
+    },
+    "progress": {
+      "exposure_id": "exposure_815d035d4ef249bda093b9a7c01f9bde",
+      "state": "cancelled",
+      "planned": true,
+      "committed_tiles": 256,
+      "total_tiles": 256,
+      "committed_pixels": 1048576,
+      "total_pixels": 1048576,
+      "complete": true,
+      "fingerprint": "74520cfef54aca163e78e5ba46132c0f788e9052507cae121a5036de5aeed83b"
+    },
+    "capacity_after": 0,
+    "export_attempt": {
+      "plate_id": null,
+      "bundle": "no plate row"
+    }
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "render_wall_s": 15.57,
+  "render_peak_mb": 94.2,
+  "verify_s": 0.002,
+  "bundle_s": 0.084,
+  "bundle_bytes": 154033,
+  "pass_bytes": 2925789
+}

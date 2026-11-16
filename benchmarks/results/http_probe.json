@@ -1,0 +1,60 @@
+[
+  {
+    "scenario": "cancel_midway",
+    "request": {
+      "width": 512,
+      "height": 512,
+      "samples": 2,
+      "faces": 4000
+    },
+    "state_before_cancel": "running",
+    "progress_at_cancel": {
+      "committed_tiles": 8,
+      "total_tiles": 256,
+      "complete": false
+    },
+    "cancel_http_status": 200,
+    "cancel_returned_state": "running",
+    "cancel_latency_s": 0.076,
+    "worker_terminal_latency_s": 0.095,
+    "worker_results": [
+      "cancelled"
+    ],
+    "terminal_state": "cancelled",
+    "terminal_error": "cancelled",
+    "capacity_before": 1048576,
+    "capacity_at_cancel_return": null,
+    "capacity_after": 0,
+    "progress_after": {
+      "committed_tiles": 8,
+      "total_tiles": 256,
+      "complete": false
+    },
+    "review": {
+      "plate_id": null,
+      "verifiable": false,
+      "exportable": false,
+      "progress_query": "available (tile watermark only)",
+      "artifacts": "no plate row; committed tiles are CAS blobs, not reviewable plates"
+    }
+  },
+  {
+    "scenario": "cancel_after_success",
+    "terminal_state": "succeeded",
+    "cancel_http_status": 409,
+    "cancel_body": {
+      "detail": "Completed exposure cannot cancel",
+      "error": "state"
+    },
+    "review": {
+      "plate_id": "plate_22934449b1bc49f29aaa399019d2716e",
+      "verify_status": 200,
+      "verified": true,
+      "pick_status": 200,
+      "bundle_status": 200,
+      "bundle_bytes": 4211,
+      "proof_status": 200,
+      "proof_state": "open"
+    }
+  }
+]

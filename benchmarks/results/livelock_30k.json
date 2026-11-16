@@ -1,0 +1,27 @@
+{
+  "faces": 30000,
+  "attempts": [
+    {
+      "attempt": 1,
+      "state": "failed",
+      "wall_s": 45.01,
+      "committed": 1,
+      "total": 64
+    },
+    {
+      "attempt": 2,
+      "state": "failed",
+      "wall_s": 45.01,
+      "committed": 2,
+      "total": 64
+    },
+    {
+      "attempt": 3,
+      "state": "failed",
+      "wall_s": 45.02,
+      "committed": 8,
+      "total": 64
+    }
+  ],
+  "final": "queued"
+}

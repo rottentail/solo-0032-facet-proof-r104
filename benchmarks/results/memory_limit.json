@@ -1,0 +1,123 @@
+{
+  "scenario": "memory_limit",
+  "observations": [
+    {
+      "limit_mb": 40,
+      "child": {
+        "state": "failed",
+        "exposure_id": "exposure_bb4c39d61a7b4ca193e377cc07cde293",
+        "error": "resource_failure",
+        "wall_s": 0.28
+      },
+      "exposure_state": "failed",
+      "exposure_error": "resource_failure",
+      "plate_id": null,
+      "progress": {
+        "committed_tiles": 0,
+        "total_tiles": 0
+      },
+      "capacity_reserved": 0
+    },
+    {
+      "limit_mb": 48,
+      "child": {
+        "state": "failed",
+        "exposure_id": "exposure_bb4c39d61a7b4ca193e377cc07cde293",
+        "error": "resource_failure",
+        "wall_s": 0.46
+      },
+      "exposure_state": "failed",
+      "exposure_error": "resource_failure",
+      "plate_id": null,
+      "progress": {
+        "committed_tiles": 0,
+        "total_tiles": 0
+      },
+      "capacity_reserved": 0
+    },
+    {
+      "limit_mb": 56,
+      "child": {
+        "state": "failed",
+        "exposure_id": "exposure_bb4c39d61a7b4ca193e377cc07cde293",
+        "error": "resource_failure",
+        "wall_s": 0.55
+      },
+      "exposure_state": "failed",
+      "exposure_error": "resource_failure",
+      "plate_id": null,
+      "progress": {
+        "committed_tiles": 0,
+        "total_tiles": 0
+      },
+      "capacity_reserved": 0
+    },
+    {
+      "limit_mb": 64,
+      "child": {
+        "state": "failed",
+        "exposure_id": "exposure_bb4c39d61a7b4ca193e377cc07cde293",
+        "error": "resource_failure",
+        "wall_s": 0.64
+      },
+      "exposure_state": "failed",
+      "exposure_error": "resource_failure",
+      "plate_id": null,
+      "progress": {
+        "committed_tiles": 0,
+        "total_tiles": 0
+      },
+      "capacity_reserved": 0
+    },
+    {
+      "limit_mb": 72,
+      "child": {
+        "state": "failed",
+        "exposure_id": "exposure_bb4c39d61a7b4ca193e377cc07cde293",
+        "error": "resource_failure",
+        "wall_s": 10.61
+      },
+      "exposure_state": "failed",
+      "exposure_error": "resource_failure",
+      "plate_id": null,
+      "progress": {
+        "committed_tiles": 256,
+        "total_tiles": 256
+      },
+      "capacity_reserved": 0
+    },
+    {
+      "limit_mb": 80,
+      "child": {
+        "state": "failed",
+        "exposure_id": "exposure_bb4c39d61a7b4ca193e377cc07cde293",
+        "error": "resource_failure",
+        "wall_s": 0.71
+      },
+      "exposure_state": "failed",
+      "exposure_error": "resource_failure",
+      "plate_id": null,
+      "progress": {
+        "committed_tiles": 256,
+        "total_tiles": 256
+      },
+      "capacity_reserved": 0
+    }
+  ],
+  "final_attempt": "succeeded",
+  "final_state": "succeeded",
+  "final_error": null,
+  "final_progress": {
+    "exposure_id": "exposure_bb4c39d61a7b4ca193e377cc07cde293",
+    "state": "succeeded",
+    "planned": true,
+    "committed_tiles": 256,
+    "total_tiles": 256,
+    "committed_pixels": 1048576,
+    "total_pixels": 1048576,
+    "complete": true,
+    "fingerprint": "0e4382e94fff53b9e2f206b5d9547d107b30f3964113514c5aa8ed3ab45a2208"
+  },
+  "plate_verify": true,
+  "capacity_after": 0
+}
